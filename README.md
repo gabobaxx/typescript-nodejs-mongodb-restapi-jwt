@@ -1,6 +1,6 @@
 # TYPESCRIPT, NODEJS & MONGODB CRUD :rocket:
 
-This is a template project using TS.
+This is a project using TS, NODEJS, MONGODB, PASSPORT and JSON WEB TOKENS.
 
 ## Technologies used for this project :computer:
 
@@ -12,13 +12,13 @@ This is a template project using TS.
 
 ![principal](docs/principal.png)
 
-## Usage
+## Intallation
 
 > The database (mongo) must be have running at port 27017 (default port)
 
 ```cmd
-git clone https://github.com/gabrielba15/typescript-nodejs-mongodb-template.git 
-cd typescript-nodejs-mongodb-template
+git clone https://github.com/gabrielba15/typescript-nodejs-mongodb-restapi-jwt.git 
+cd typescript-nodejs-mongodb-restapi-jwt
 npm install 
 npm run build 
 npm start
