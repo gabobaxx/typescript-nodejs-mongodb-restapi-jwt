@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/src/",
-    "clean": "rm -rf build",
+    "clean": "rimraf build",
     "build": "npm run clean && tsc && npm run html",
     "html": "cp -r ./src/views/ ./src/public/ ./build/src/",
     "ts:node": "ts-node src/index.ts",
@@ -23,7 +23,8 @@
     "@types/mongoose": "^5.10.3",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
-    "mongoose": "^5.11.15"
+    "mongoose": "^5.11.15",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
