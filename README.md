@@ -1,6 +1,8 @@
 # TYPESCRIPT, NODEJS & MONGODB PROJECT :rocket:
 
-This is a project using TS, NODEJS, MONGODB, PASSPORT and JSON WEB TOKENS.
+This is a project using TS, NODEJS, MONGODB, PASSPORT and JSON WEB TOKENS, is a short REST API for authenticate users.
+
+This can be used as backend for a frontend developed in most javascript modern framework like a React, Vue or Angular that require an user authentication method.
 
 ## Technologies used for this project :computer:
 
@@ -12,7 +14,7 @@ This is a project using TS, NODEJS, MONGODB, PASSPORT and JSON WEB TOKENS.
 
 ![principal](docs/principal.png)
 
-## Intallation
+## Installation
 
 > The database (mongo) must be have running at port 27017 (default port)
 
